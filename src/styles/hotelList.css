@@ -1,0 +1,46 @@
+.hotel-card{
+    border: black solid 0.1rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 5px 8px 11px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 8px 11px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 8px 11px -2px rgba(0,0,0,0.75);
+}
+
+.header-card{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: black solid 0.2rem;
+}
+
+.address-card{
+    text-align: start;
+}
+
+.body-card{
+    display: flex;
+    flex-wrap: wrap;
+    & img{
+        width: 30%;
+    }
+}
+
+.subbody-card{
+    width: calc( 70% - 2rem);
+    padding-left: 2rem;
+}
+
+.board-card{
+    text-align: start;
+    border-bottom: black solid 0.2rem;
+    width: 100%;
+}
+
+.list{
+    text-align: start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    & li{
+        margin-bottom: 1.2rem;
+    }
+}
